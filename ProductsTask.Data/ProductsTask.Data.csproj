@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProductsTask.IData\ProductsTask.IData.csproj" />
+    <ProjectReference Include="..\ProductsTask.SqlServer\ProductsTask.SqlServer.csproj" />
+  </ItemGroup>
+
+</Project>
